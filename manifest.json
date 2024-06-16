@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "bing to google",
+  "version": "1.0.0",
+  "description": "bing to google",
+  "content_scripts" : [
+      {
+          "matches" : ["*://*.bing.com/*"],
+          "js" : ["index.js"]
+      }
+  ]
+}
